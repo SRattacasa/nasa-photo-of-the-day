@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <HeaderComp headline="My NASA Birthday Photo is shown below" />
+      {/* <HeaderComp headline="My NASA Birthday Photo is shown below" /> */}
       <NasaImage />
       <p>
         Read through the instructions in the README.md file to build your NASA
