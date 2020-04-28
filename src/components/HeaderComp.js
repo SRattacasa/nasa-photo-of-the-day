@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HeaderComp = (props) => {
+const BodyComp = (props) => {
     return (
         <div>
             <p>{props.headline}</p>
@@ -8,4 +8,4 @@ const HeaderComp = (props) => {
     )
 };
 
-export default HeaderComp;
+export default BodyComp;

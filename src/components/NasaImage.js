@@ -1,6 +1,6 @@
 import React, {useState, useEffect } from 'react';
 import axios from 'axios';
-import HeaderComp from './HeaderComp';
+import BodyComp from './HeaderComp';
 
 const NasaImage = (props) => {
     
@@ -29,7 +29,7 @@ const NasaImage = (props) => {
     <div> 
         
         <img src={imgState} alt='nasababy' style={styles}></img>
-        <HeaderComp headline={expState} />
+        <BodyComp headline={expState} />
     </div> 
     
     )
