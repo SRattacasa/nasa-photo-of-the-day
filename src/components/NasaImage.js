@@ -1,9 +1,13 @@
 import React, {useState, useEffect } from 'react';
 import axios from 'axios';
 import BodyComp from './HeaderComp';
+import FadeComp from './FadeComp'
+
 
 const NasaImage = (props) => {
     
+    
+  
     let [imgState, setImgstate] = useState();
     let [expState, setexpState] = useState();
     let styles = {
@@ -27,8 +31,8 @@ const NasaImage = (props) => {
     return ( 
     
     <div> 
-        
-        <img src={imgState} alt='nasababy' style={styles}></img>
+        <FadeComp rendergraphic={imgState} style={styles}/>
+        {/* <img src={imgState} alt='nasababy' style={styles}></img> */}
         <BodyComp headline={expState} />
     </div> 
     
