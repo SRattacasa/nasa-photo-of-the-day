@@ -1,8 +1,7 @@
 import React from "react";
 import "./App.css";
 import NasaImage from "./components/NasaImage";
-import FadeIn from "./components/FadeComp";
-import { Button, Fade } from 'reactstrap';
+
 
 function App() {
   
